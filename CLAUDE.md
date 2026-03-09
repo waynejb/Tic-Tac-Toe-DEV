@@ -26,6 +26,16 @@ Single-file web application (`index.html`) with inline CSS and JavaScript — no
 
 **UI theme:** Dark (`#1a1a2e` bg), red accent (`#e94560`), cyan accent (`#a8dadc`), 3×3 grid with 120px cells.
 
+## Git Workflow
+
+Commit and push to GitHub regularly as work progresses. Use clean, descriptive commit messages that explain the "why" not just the "what". Push after each logical unit of work is complete.
+
+```bash
+git add <files>
+git commit -m "Brief description of change"
+git push
+```
+
 ## Testing
 
 Manual browser testing only. Key scenarios to verify:
